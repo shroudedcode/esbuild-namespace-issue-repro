@@ -1,0 +1,10 @@
+
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@mapbox/polyline": ["node_modules/@types/mapbox__polyline/index.d.ts"]
+    }
+  }
+}
